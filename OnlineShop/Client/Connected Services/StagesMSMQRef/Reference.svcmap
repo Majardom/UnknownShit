@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f2d67925-3061-449d-a612-d42385197eb7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/online_shop_wcf_services/StagesMSMQ.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StagesMSMQ.wsdl" MetadataType="Wsdl" ID="1b2bf158-63a0-45b7-90d4-528caf587c80" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?wsdl" />
+    <MetadataFile FileName="StagesMSMQ.xsd" MetadataType="Schema" ID="bb564ff5-2b7c-4bed-be43-3ee036d495cf" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?xsd=xsd3" />
+    <MetadataFile FileName="StagesMSMQ1.xsd" MetadataType="Schema" ID="48db8e93-5b94-48f4-b583-3d090eacdca6" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?xsd=xsd0" />
+    <MetadataFile FileName="StagesMSMQ2.xsd" MetadataType="Schema" ID="18cbbb7e-709e-482e-bfb4-ea0108088123" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?xsd=xsd1" />
+    <MetadataFile FileName="StagesMSMQ.disco" MetadataType="Disco" ID="9e634e13-0201-4d6a-8b95-bd52b02c815e" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?disco" />
+    <MetadataFile FileName="StagesMSMQ3.xsd" MetadataType="Schema" ID="3c23d347-8758-4c88-a1f0-ae018b9f70ed" SourceId="1" SourceUrl="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

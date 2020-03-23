@@ -1,0 +1,8 @@
+.ordersHeader{
+    background-color:#d1e1f9;
+    width: 60%;
+    margin: 5px auto;
+}
+.ordersHeader h1{
+    text-align: center;
+}

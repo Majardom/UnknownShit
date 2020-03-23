@@ -1,0 +1,8 @@
+<div *ngIf="stages && activeStage" class="container">
+  <ul class="progressbar">
+    <li *ngFor="let stage of stages" 
+    [ngClass]="getStyle(stage)" 
+    [style.width.%]="getWidthPercents()">
+      {{stage.Caption}}</li>
+  </ul>
+</div>

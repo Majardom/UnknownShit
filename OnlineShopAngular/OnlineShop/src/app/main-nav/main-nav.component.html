@@ -1,0 +1,19 @@
+<mat-sidenav-container class="sidenav-container" autosize>
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+    [attr.role]="navigation" 
+    [mode]="mode"
+    opened="True"
+    [style.width]="isExpanded ? expandedWidth : collapsedWidth">
+    <app-side-nav-expanded *ngIf =  "isExpanded"></app-side-nav-expanded>
+    <app-side-nav-collapsed *ngIf =  "!isExpanded"></app-side-nav-collapsed>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)='onHideClick()'>
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>OnlineShop</span>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

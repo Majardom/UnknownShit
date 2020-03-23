@@ -1,0 +1,12 @@
+<mat-card class="ordersHeader">
+  <h1>Заказы</h1>
+</mat-card>
+<div *ngIf="orders && categories && stages && products">
+  <div *ngFor="let order of orders">
+    <app-order [order]= "order" 
+    [stage]= "getStage(order.StageId)"
+    [product]="getProduct(order.ProductId)"
+    [category] = "getCategory(getProduct(order.ProductId).CategoryId)">
+    </app-order>
+  </div>
+</div>

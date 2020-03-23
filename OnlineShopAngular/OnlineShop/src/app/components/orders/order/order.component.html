@@ -1,0 +1,25 @@
+<mat-card class="orderInfo">
+  <mat-card-content>
+
+    <mat-card-subtitle id="date"><span>Дата заказа: </span>{{getDate()}}</mat-card-subtitle>
+
+    <mat-card-content class="content">
+      <div class="container">
+        <img id="icon" mat-card-image [src]="product.ImgPath" alt="ProductImg" style="width:120px;height:120px;">
+      </div>
+      <div class="container">
+        <p><span>Количество: </span>{{order.Amount}}</p>
+        <p><span>Цена: </span>{{order.ProductPrice}}</p>
+        <p><span>Сума: </span>{{getOrderPrice()}}</p>
+      </div>
+      <div class="container">
+        <p><span>Товар: </span>{{product.Caption}}</p>
+        <p><span>Категория: </span>{{category.Caption}}</p>
+      </div>
+
+    </mat-card-content>
+    <mat-card-footer>
+      <app-stages-bar [activeStage]="stage"></app-stages-bar>
+    </mat-card-footer>
+  </mat-card-content>
+</mat-card>

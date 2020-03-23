@@ -1,0 +1,27 @@
+.orderInfo {
+    background-color: #d1e1f9;
+    width: 60%;
+    margin: 1em auto;
+}
+
+.content {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container{
+    padding: 1em;
+    flex-grow: 1;
+}
+.container span {
+    font-weight: bold;
+}
+ #date {
+     text-align: right;
+ }
+ #icon {
+    margin: 1em;
+    float: left;
+}

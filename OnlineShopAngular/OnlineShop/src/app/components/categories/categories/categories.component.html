@@ -1,0 +1,6 @@
+<mat-card class = "ordersHeader">
+    <h1>Категории</h1>
+  </mat-card>
+<mat-accordion *ngFor="let category of categories">
+    <app-category *ngIf="products" [category]="category" [products]="getProductsById(category.Id) "></app-category>
+</mat-accordion>

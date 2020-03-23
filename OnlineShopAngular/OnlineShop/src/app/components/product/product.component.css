@@ -1,0 +1,10 @@
+.productInfo { 
+    margin: 5px;
+} 
+.productInfo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5em; 
+    border-radius: 3px;
+}

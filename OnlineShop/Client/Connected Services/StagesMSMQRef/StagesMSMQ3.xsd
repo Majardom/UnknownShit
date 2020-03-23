@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BLL.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BLL.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/online_shop_wcf_services/StagesMSMQ.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/BLL.DTO.Abstract" />
+  <xs:complexType name="StageDto">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/BLL.DTO.Abstract" base="q1:BaseBllEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Caption" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StageDto" nillable="true" type="tns:StageDto" />
+</xs:schema>
